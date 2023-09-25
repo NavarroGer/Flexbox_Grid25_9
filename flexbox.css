@@ -1,0 +1,21 @@
+*{
+    font-size: 20px;
+}
+.Padre{
+    background-color: rgb(93, 186, 218);
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: flex-start; 
+}
+
+.Hijos{
+    background-color: rgb(241, 88, 165);
+    border: 2px solid rgb(119, 9, 64);
+    width: 200px;
+    height: 200px;
+}
+.Elemento_3{
+    align-self: center;
+}
